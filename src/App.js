@@ -1,4 +1,5 @@
 import "./App.css";
+import DisplayWeather from "./Components/DisplayWeather";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h2>Display weather here</h2>
       <button>Start fetching weather every 5 seconds</button>
       <button>Stop fetching weather</button>
+      <DisplayWeather />
     </div>
   );
 }

@@ -24,7 +24,7 @@ function App() {
   };
 
   const handleStart = () => {
-    let apiCall = setInterval(() => {
+    const apiCall = setInterval(() => {
       fetchWeather();
     }, 5000);
     setIntervalId(apiCall);
